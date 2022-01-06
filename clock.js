@@ -12,7 +12,7 @@ function getTime(){
 }
 
 function init(){
-  getTine();
+  getTime();
   setInterval(getTime, 1000);
   return;
 }
